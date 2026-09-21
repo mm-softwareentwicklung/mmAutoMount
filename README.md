@@ -17,11 +17,12 @@
 ## Funktionen
 
 - **Automatisch verbinden:** nach der Anmeldung, nach dem Ruhezustand, bei Netzwerkwechsel und nach dem VPN-Aufbau. Von Hand ausgeworfene Laufwerke bleiben getrennt.
-- **Wie im Finder:** Die Laufwerke erscheinen unter `/Volumes` – Aliase und zuletzt verwendete Ordner funktionieren ohne Login-Fenster.
+- **Wie im Finder:** Die Laufwerke erscheinen unter `/Volumes` – Aliase funktionieren ohne Login-Fenster. Damit Programme ihre zuletzt verwendeten Ordner finden, zeigt mmAutoMount jedes Laufwerk nach dem Start einmal im Finder (abschaltbar).
 - **Zugangsdaten im Schlüsselbund:** eigenes Passwort, der Eintrag des Finders oder Gast. Nichts davon steht in den Einstellungen.
 - **Beliebig viele Laufwerke** (SMB, AFP, NFS, WebDAV): verbundene Laufwerke mit einem Klick übernehmen, Einträge duplizieren, sortieren per Drag & Drop, nach Name oder Änderungsdatum.
 - **Export und Import** für den Umzug auf einen anderen Mac – auf Wunsch samt Zugangsdaten und mit Passwort verschlüsselt (AES-256).
 - **Nur in der Menüleiste:** ein Klick öffnet die Einstellungen, ein Rechtsklick verbindet oder trennt alle Laufwerke. Das Symbol ist wählbar und abschaltbar.
+- **Erscheinungsbild** automatisch wie das System, hell oder dunkel.
 - **Automatische Updates** nach Bestätigung, **Deutsch, Englisch, Französisch, Italienisch und Spanisch**, Liquid Glass ab macOS 26.
 
 <picture>
@@ -81,11 +82,12 @@ Danach aktualisiert sich mmAutoMount selbst: Die App sucht täglich nach neuen V
 mmAutoMount connects your network drives automatically as soon as you log in to your Mac – without Finder’s sign-in window.
 
 - **Connects automatically:** after login, after sleep, on a network change and once your VPN is up. Drives you eject yourself stay disconnected.
-- **Just like Finder:** drives appear under `/Volumes` – aliases and recently used folders work without a login window.
+- **Just like Finder:** drives appear under `/Volumes` – aliases work without a login window. So that apps find their recently used folders, mmAutoMount shows every drive once in Finder after launch (can be switched off).
 - **Credentials in the keychain:** your own password, Finder’s keychain item, or guest. None of it is stored in the settings.
 - **Any number of drives** (SMB, AFP, NFS, WebDAV): import connected drives with one click, duplicate entries, sort by drag and drop, by name or by modification date.
 - **Export and import** for moving to another Mac – with credentials if you like, encrypted with a password (AES-256).
 - **Menu bar only:** a click opens the settings, a right-click connects or disconnects all drives. The icon can be chosen or hidden.
+- **Appearance** automatic like the system, light or dark.
 - **Automatic updates** once you confirm, **English, German, French, Italian and Spanish**, Liquid Glass on macOS 26 and later.
 
 <p align="center">
