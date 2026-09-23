@@ -23,6 +23,7 @@
 - **Export und Import** für den Umzug auf einen anderen Mac – auf Wunsch samt Zugangsdaten und mit Passwort verschlüsselt (AES-256).
 - **Nur in der Menüleiste:** ein Klick öffnet die Einstellungen, ein Rechtsklick verbindet oder trennt alle Laufwerke. Das Symbol ist wählbar und abschaltbar.
 - **Erscheinungsbild** automatisch wie das System, hell oder dunkel.
+- **Aufräumen:** entfernt die Schattendateien von macOS auf den Laufwerken – „._Name“, .DS_Store, „.Spotlight-V100“ und „.TemporaryItems“ – auf Knopfdruck oder täglich.
 - **Automatische Updates** nach Bestätigung, **Deutsch, Englisch, Französisch, Italienisch und Spanisch**, Liquid Glass ab macOS 26.
 
 <picture>
@@ -40,6 +41,12 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/de/settings-general-dark.png">
     <img src="images/de/settings-general-light.png" width="49%" alt="Einstellungen – Allgemein">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/de/settings-advanced-dark.png">
+    <img src="images/de/settings-advanced-light.png" width="49%" alt="Einstellungen – Erweitert">
   </picture>
 </p>
 <p align="center">
@@ -88,6 +95,7 @@ mmAutoMount connects your network drives automatically as soon as you log in to 
 - **Export and import** for moving to another Mac – with credentials if you like, encrypted with a password (AES-256).
 - **Menu bar only:** a click opens the settings, a right-click connects or disconnects all drives. The icon can be chosen or hidden.
 - **Appearance** automatic like the system, light or dark.
+- **Clean-up:** removes the shadow files macOS leaves on your drives – “._name”, .DS_Store, “.Spotlight-V100” and “.TemporaryItems” – on demand or daily.
 - **Automatic updates** once you confirm, **English, German, French, Italian and Spanish**, Liquid Glass on macOS 26 and later.
 
 <p align="center">
@@ -98,6 +106,10 @@ mmAutoMount connects your network drives automatically as soon as you log in to 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/en/settings-general-dark.png">
     <img src="images/en/settings-general-light.png" width="49%" alt="Settings – General">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/en/settings-advanced-dark.png">
+    <img src="images/en/settings-advanced-light.png" width="49%" alt="Settings – Advanced">
   </picture>
 </p>
 
