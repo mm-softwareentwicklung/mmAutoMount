@@ -68,10 +68,10 @@
 
 1. Unter [Releases](../../releases/latest) die Datei `mmAutoMount-<Version>.dmg` herunterladen.
 2. DMG öffnen und mmAutoMount in den Ordner „Programme“ ziehen.
-3. Beim ersten Start fragt macOS nach einer Freigabe: Systemeinstellungen › Datenschutz & Sicherheit › „Trotzdem öffnen“. Details stehen in der Anleitung in der DMG.
+3. Beim ersten Start fragt macOS nach dem Zugriff aufs lokale Netzwerk: „Erlauben“. Die App prüft damit nur, ob deine Server erreichbar sind.
 4. Unter „Netzwerklaufwerke“ die Laufwerke eintragen oder verbundene übernehmen, unter „Allgemein“ „Beim Anmelden starten“ einschalten.
 
-Danach aktualisiert sich mmAutoMount selbst: Die App sucht täglich nach neuen Versionen und installiert sie nach Bestätigung (Einstellungen › Allgemein › „Jetzt suchen …“). macOS fragt nach jedem Update einmal nach dem Zugriff aufs lokale Netzwerk – mmAutoMount löst die Frage gleich nach dem Update aus.
+Die App ist mit einer Apple Developer ID signiert und von Apple beglaubigt, sie startet also ohne Umwege. Danach aktualisiert sich mmAutoMount selbst: Die App sucht täglich nach neuen Versionen und installiert sie nach Bestätigung (Einstellungen › Allgemein › „Jetzt suchen …“).
 
 ## Voraussetzungen
 
@@ -117,10 +117,10 @@ mmAutoMount connects your network drives automatically as soon as you log in to 
 
 1. Download `mmAutoMount-<version>.dmg` from [Releases](../../releases/latest).
 2. Open the disk image and drag mmAutoMount to the Applications folder.
-3. On first launch macOS asks for your approval: System Settings › Privacy & Security › “Open Anyway”. The guide inside the disk image (in German) has the details.
+3. On first launch macOS asks whether the app may access your local network: “Allow”. It only uses this to check whether your servers are reachable.
 4. Add your drives under “Network Drives” or import the connected ones, and switch on “Launch at login” under “General”.
 
-After that mmAutoMount updates itself: it checks for new versions daily and installs them once you confirm (Settings › General › “Check Now…”). macOS asks for local network access once after every update – mmAutoMount brings that question up right after the update.
+The app is signed with an Apple Developer ID and notarized by Apple, so it opens right away. After that mmAutoMount updates itself: it checks for new versions daily and installs them once you confirm (Settings › General › “Check Now…”).
 
 ### Requirements
 
